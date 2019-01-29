@@ -1,12 +1,14 @@
 # BBEmbedded
 BebasBayar embeddable service.
 
+[ ![Download](https://api.bintray.com/packages/es-bimasakti/BebasBayar/BB-Embed-Lib/images/download.svg?version=0.3.2) ](https://github.com/es-bimasakti/bb-embed-lib)
+
 # Include This Library to Your Project
 
 *Note: Always use the latest version of this library if possible to get recent update.*
 
 ```gradle
-implementation 'com.bm.sc.bebasbayar:BB-Embed-Lib:0.3.2'
+implementation 'com.bm.sc.bebasbayar:BB-Embed-Lib:{latest_version}'
 ```
 
 # Usage
