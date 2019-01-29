@@ -1,9 +1,24 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+
+publish {
+
+    def groupProjectID = 'com.bm.sc.bebasbayar'
+    def artifactProjectID = 'BB-Embed-Lib'
+    def publishVersionID = '0.3.2'
+
+    userOrg = 'es-bimasakti'
+    repoName = 'BebasBayar'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'BebasBayar Embed Launcher Library'
+    website = 'https://github.com/es-bimasakti/bb-embed-lib'
+
+}
 
 android {
     compileSdkVersion 27
-
-
 
     defaultConfig {
         minSdkVersion 15
@@ -33,5 +48,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-apply from: '../install.gradle'
-apply from: '../bintray.gradle'
+allprojects {
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+    }
+}
