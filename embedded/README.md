@@ -4,7 +4,7 @@
 | Variabel      | Type           | Nilai Awal       | Deskripsi                                                    |
 | ------------- | -------------- | ---------------- | ------------------------------------------------------------ |
 | idtrx         | String Numeric | -                | Nomor Referensi                                              |
-| client        | String         | "MYBOOST"        | App Client                                                   |
+| client        | String         | "BB"             | App Client                                                   |
 | idprodukubp   | String         | -                | Kode Produk                                                  |
 | idpelanggan1  | String         | -                | Nomor Pelanggan/Bill Info                                    |
 | idpelanggan2  | String         | -                | Nomor Pelanggan 2/Nomor Meter                                |
