@@ -23,8 +23,8 @@
 
 ## Mandatory Header
 
-| Variabel | Type   | Keterangan                                      |
-| -------- | ------ | ----------------------------------------------- |
-| token    | String | Token yang diberikan saat pendaftaran integrasi |
-|          |        |                                                 |
+| Variabel        | Type   | Keterangan                                           |
+| --------------- | ------ | ---------------------------------------------------- |
+| token           | String | Token yang diberikan saat pendaftaran integrasi      |
+| x-forwarded-for | String | Identifier yang diberikan saat pendaftaran integrasi |
 
