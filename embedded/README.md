@@ -15,5 +15,6 @@
 | email         | String         | Email Penjual    | Ticket: Email Pembeli/Penumpang                              |
 | customername  | String         | Nama Penjual     | Nama Pelanggan/Bill Info (Jika Tersedia)                     |
 | userid        | String         | -                | ID Agent/ID Member                                           |
+| note          | String         | -                | Keterangan, digunakan untuk menu transfer                    |
 |               |                |                  |                                                              |
 
