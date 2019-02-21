@@ -1,4 +1,7 @@
+> Konten ini hanya untuk Integrasi Custom Direct, tidak berlaku untuk model default bb-embed
+
 # JS Interface Data
+
 *Daftar Item yang dikirimkan pada JS Interface
 
 | Variabel      | Type           | Nilai Awal       | Deskripsi                                                    |
@@ -17,4 +20,11 @@
 | userid        | String         | -                | ID Agent/ID Member                                           |
 | note          | String         | -                | Keterangan, digunakan untuk menu transfer                    |
 |               |                |                  |                                                              |
+
+## Mandatory Header
+
+| Variabel | Type   | Keterangan                                      |
+| -------- | ------ | ----------------------------------------------- |
+| token    | String | Token yang diberikan saat pendaftaran integrasi |
+|          |        |                                                 |
 
